@@ -1,0 +1,150 @@
+body{
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.fnt-size{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.fnt-clr{
+    color: #0088cc;
+}
+
+.nav-link{
+    color: #0088cc;
+}
+
+.img-div{
+    margin-top: 35px;
+    width: 268px;
+    height: 250px;
+}
+
+.right-news-a{
+    text-decoration: none;
+}
+
+.right-news-date{
+    font-size: 14px;
+    color: #333;
+    padding-top: 10px;
+}
+
+.right-news-title{
+    color: #0088cc;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.right-news-header{
+    color: #0088cc;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.line{
+    float: left;
+    height: 200px;
+    width: 6px;
+    background-color: #0088cc;
+    margin-right: 20px;
+}
+
+.side-blog{
+    width: 600px;
+}
+
+.side-blog-small{
+    width: 200px;
+    height: 261;
+}
+
+.side-blog-small .right-news-title{
+    font-size: 10px;
+}
+
+.tb{
+    font-weight: bold;
+}
+
+h5{
+    padding-top: 20px;
+    color: #0088cc;
+}
+
+h2{
+    padding: 20px;
+    color: #0088cc;
+}
+
+.img-cent{
+    justify-content: end;
+}
+
+@media only screen and (max-width: 767px){
+    .img-cent{
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .text-cent{
+        margin-right: 140px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .dis-element{
+        display: none;
+    }
+}
+
+.marg-left{
+    margin-left: 180px;
+}
+
+.marg-right{
+    margin-right: 180px;
+}
+
+@media only screen and (max-width: 1199px){
+    .marg-left{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .marg-right{
+        margin: 0;
+    }
+}
+
+.wid-text{
+    width: 356px;
+}
+
+.card-cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-wid{
+    width: 90px;
+}
+
+.no-line{
+    text-decoration: none;
+    color: #0088cc;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cont-padd{
+    justify-content: center;
+}

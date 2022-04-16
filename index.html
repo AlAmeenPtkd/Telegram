@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Messenger</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" href="/images/Telegram-favicon.png">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand navbar-light border-bottom" style="height: 50px;">
+    <div class="container">
+
+      <div class="px-5 collapse navbar-collapse">
+        <ul class="fnt-size px-3 navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a href="#" class="nav-link" style="color: #0088cc; font-size: 1.05rem;">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="#" class="nav-link" style="color: #0088cc; font-size: 1.05rem;">FAQ</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="#" class="nav-link" style="color: #0088cc; font-size: 1.05rem;">Apps</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="#" class="nav-link" style="color: #0088cc; font-size: 1.05rem;">API</a>
+          </li>
+          <li class="nav-item px-2">
+            <a href="#" class="nav-link" style="color: #0088cc; font-size: 1.05rem;">Protocol</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="fnt-size navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item px-3 fnt-clr d-sm-none d-md-block">🌐EN <i class="fa-solid fa-sort-down"></i></li>
+        <li class="nav-item px-3 fnt-clr d-sm-none d-md-block">Twitter <i class="fa-brands fa-twitter"></i></li>
+        <li><button class="btn btn-dark" id="dark-btn" value="dark" onclick="darkMode()">Dark Mode</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="sec-1">
+    <div class="mt-4 container">
+      <div class="row d-flex justify-content-center">
+        <div class="spacer col-lg-4"></div>
+        <div class="img-div col-12 col-md-6 col-lg-4">
+          <img style="text-align: center; display: block; margin-left: auto; margin-right: auto;"
+            src="/images/Telegram-favicon.png" width="130px" alt="">
+          <h1 style="color: #363b40; text-align: center;">Telegram</h1>
+          <h4 style="color: #8c8c8c; text-align: center;">a new era of messaging</h4>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 side-blog">
+          <div class="line"></div>
+          <a href="/blog" class="right-news-header">Recent News</a>
+          <div class="side_blog_entries container-fluid">
+            <a href="/blog/downloads-attachments-streaming" class="right-news-a">
+              <div class="right-news-date">Mar 11</div>
+              <div class="right-news-title">Download Manager, New Attachment Menu, Live Streaming With Other Apps and
+                More</div>
+            </a><a href="/blog/video-stickers-better-reactions" class="right-news-a">
+              <div class="right-news-date">Jan 31</div>
+              <div class="right-news-title">Video Stickers, Better Reactions and More</div>
+            </a><a href="/blog/reactions-spoilers-translations" class="right-news-a">
+              <div class="right-news-date">Dec 30</div>
+              <div class="right-news-title">Reactions, Spoilers, Translation and QR Codes</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sect-2">
+    <div class="container">
+      <div class="row pt-4">
+        <div class="col px-0">
+          <div class="px-0 d-flex justify-content-center">
+            <img src="/images/Photo-1.png" alt="">
+          </div>
+          <div class="col px-0 d-flex justify-content-center">
+            <h5>Telegram for <span class="tb">Android</span></h3>
+          </div>
+        </div>
+        <div class="col px-0">
+          <div class="col px-0 d-flex justify-content-center">
+            <img src="/images/Photo-2.png" alt="">
+          </div>
+          <div class="col px-0 d-flex justify-content-center">
+            <h5><i class="fa-brands fa-apple"></i> Telegram for <span class="tb">iPhone / iPad</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-4">
+        <div class="col px-0">
+          <div class="px-0 d-flex img-cent">
+            <img src="/images/Photo-3.png" alt="">
+          </div>
+          <div class="px-0 d-flex justify-content-end text-cent">
+            <h5>Telegram for <span class="tb">Pc / Linux</span></h3>
+          </div>
+        </div>
+        <div class="col px-0 dis-element">
+          <div class="col px-0 d-flex justify-content-start">
+            <img src="/images/Photo-4.png" alt="">
+          </div>
+          <div class="col">
+            <h5>Telegram for <span class="tb">macOS</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sect-3">
+    <div class="container">
+      <div class="recent-head d-flex pt-5 justify-content-center">
+        <h3><a href="">Recent News</a></h3>
+      </div>
+      <div class="row pt-5">
+        <div class="col marg-left d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Photo-5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="p-0">Download Manager, New Attachment Menu, Live Streaming With Other Apps and More</h5>
+              <h6>Today's update brings tools to help you control your downloads, send documents with a tap, re-arrange
+                media albums before sending, turn…</h6>
+              <p class="card-text">Mar 11, 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="col marg-right d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Photo-6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="p-0">Video Stickers, Better Reactions and More</h5>
+              <h6>This update brings easy-to-make video stickers, better reactions with more compact animations and
+                extra emoji, a button to review unseen…</h6>
+              <p class="card-text">Jan 31, 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="sect-4">
+    <div class="container">
+      <div class="recent-head d-flex pt-5 justify-content-center">
+        <h3><a href="">Why Telegram?</a></h3>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-1.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Simple</h2>
+              <h6>Telegram is so simple you already know how to use it.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-2.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Private</h2>
+              <h6>Telegram messages are heavily encrypted and can self-destruct.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-3.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Synced</h2>
+              <h6>Telegram lets you access your chats from multiple devices.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-4.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Fast</h2>
+              <h6>Telegram delivers messages faster than any other application.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-5.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Powerful</h2>
+              <h6>Telegram has no limits on the size of your media and chats.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-6.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Open</h2>
+              <h6>Telegram has an open API and source code free for everyone.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-7.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Secure</h2>
+              <h6>Telegram keeps your messages safe from hacker attacks.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-8.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Social</h2>
+              <h6>Telegram groups can hold up to 200,000 members.</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="card border-0" style="width: 356px;">
+            <img src="/images/Gifs/Gif-9.png" class="card-img-top card-cent" alt="..."
+              style="height: 160px; width: 160px;">
+            <div class="card-body" style="text-align: center;">
+              <h2 class="p-0">Expressive</h2>
+              <h6>Telegram lets you completely customize your messenger.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="bg-white text-black text-center text-md-start">
+    <!-- Grid container -->
+    <div class="container border-top-1 justify-content-start">
+      <div style="width: 100%; background-color: #8c8c8c; height: 1px;"></div>
+      <!--Grid row-->
+      <div class="row cont-padd">
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Telegram</h5>
+
+          <p>
+            Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-2 mb-4 mb-md-0 div-wid">
+          <h5 class="text-uppercase">About</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="no-line">FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Jobs</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-2 mb-4 mb-md-0 div-wid">
+          <h5 class="text-uppercase">Mobile Apps</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="no-line">iPhone/iPad</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Android</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Windows Phone</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-2 mb-4 mb-md-0 div-wid">
+          <h5 class="text-uppercase">Desktop Apps</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="no-line">Pc/Mac/Linux</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">macOs</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Web-browser</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-2 mb-4 mb-md-0 div-wid">
+          <h5 class="text-uppercase mb-0">Platform</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="no-line">API</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Translation</a>
+            </li>
+            <li>
+              <a href="#!" class="no-line">Instant View</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  </footer>
+
+
+
+
+  <script src="/js/app.js"></script>
+  <script src="https://kit.fontawesome.com/72e248e4d7.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
